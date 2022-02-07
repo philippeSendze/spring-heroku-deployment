@@ -17,7 +17,7 @@ public class DeploiementApplication {
 
 	@GetMapping("/{input}")
 	public String getMessage(@PathVariable String input){
-		return "Hello" + input;
+		return "Hello " + input;
 	}
 
 	public static void main(String[] args) {
